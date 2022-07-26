@@ -1,0 +1,31 @@
+body {
+    background-color: azure;
+}
+
+.menüAlanı {
+    background-color: rgb(164 29 52);
+    list-style-type: none;
+
+}
+.menüAlanı li {
+    display: inline-block;
+    
+}
+
+.menüAlanı a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    font-family: Arial;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.menüAlanı a:hover {
+    color: rgb(164 29 52);
+    background-color: rgb(20 192 241);
+}
